@@ -17,13 +17,13 @@ def apply_discount(price , discount):
         final_price = price - discount
         return final_price
 
-apply_discount('twenty',30)
-apply_discount(100,'ten')
-apply_discount(0,100)
-apply_discount(50,-30)
-apply_discount(50,120)
-apply_discount(100,20)
-apply_discount(200,50)
-apply_discount(50,0)
-apply_discount(10,100)
-apply_discount(74.5,20.0)
+print(apply_discount('twenty',30))
+print(apply_discount(100,'ten'))
+print(apply_discount(0,100))
+print(apply_discount(50,-30))
+print(apply_discount(50,120))
+print(apply_discount(100,20))
+print(apply_discount(200,50))
+print(apply_discount(50,0))
+print(apply_discount(10,100))
+print(apply_discount(74.5,20.0))
