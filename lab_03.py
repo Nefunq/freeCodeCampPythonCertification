@@ -31,4 +31,4 @@ def create_character(name , strength , intelligence , charisma):
         charisma = 'CHA ' + full_dot * charisma + (empty_dot * (10 - charisma))
         return print(name + '\n' + strength + '\n' + intelligence + '\n' + charisma)
 
-create_character('nefunq', 4 , 2, 1)
+create_character('ren', 4 , 2, 1)
